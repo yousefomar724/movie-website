@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AXN Movies</title>
+    <!--== CSS ==-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--== LIGHT SLIDER CSS ==-->
+    <link rel="stylesheet" href="assets/css/lightslider.css">
+    <!--== JQUERY ==-->
+    <script src="assets/js/jquery.js"></script>
+    <!--== LIGHT SLIDER JS ==-->
+    <script src="assets/js/lightslider.js"></script>
+    <!--== FAVICON ==-->
+    <link rel="icon" href="assets/img/fav icon.png">
+    <!--== BOX ICONS ==-->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <!--== NORMALIZE ==-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg==" crossorigin="anonymous" />
+</head>
+<body>
+    <!--== NAV ==-->
+    <nav>
+        <a href="#" class="logo">
+            <img src="assets/img/logo.png" alt="">
+        </a>
+
+        <input type="checkbox" class="menu-btn" id="menu-btn">
+        <label for="menu-btn" class="menu-icon">
+            <span class="nav-icon"></span>
+        </label>
+
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Movies</a></li>
+            <li><a href="#">Anime</a></li>
+            <li><a href="#">TV Shows</a></li>
+            <li><a href="#">Documentries</a></li>
+        </ul>
+
+        <div class="search">
+            <input type="text" placeholder="Find Your Favourite Movie">
+            <i class="bx bx-search"></i>
+        </div>
+    </nav>
+
+    <!--== MAIN ==-->
+    <section id="main">
+        <h1 class="showcase__heading">Showcase</h1>
+
+        <!--== SLIDER ==-->
+        <ul id="autoWidth" class="cs-hidden">
+            <li class="item-a">
+                <div class="showcase__box">
+                    <img src="assets/img/s-1.jpg" alt="">
+                </div>
+            </li>
+            <li class="item-b">
+                <div class="showcase__box">
+                    <img src="assets/img/s-2.jpg" alt="">
+                </div>
+            </li>
+            <li class="item-c">
+                <div class="showcase__box">
+                    <img src="assets/img/s-3.jpg" alt="">
+                </div>
+            </li>
+            <li class="item-d">
+                <div class="showcase__box">
+                    <img src="assets/img/s-4.jpg" alt="">
+                </div>
+            </li>
+            <li class="item-e">
+                <div class="showcase__box">
+                    <img src="assets/img/s-5.png" alt="">
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <!--== LATEST MOVIES ==-->
+    <section id="latest">
+        <h2 class="latest__heading">Latest Movies</h2>
+        
+        <ul id="autoWidth2" class="cs-hidden">
+            <li class="item-a">
+                <div class="latest__box">
+                    <div class="latest__img">
+                        <img src="assets/img/m-1.jpg" alt="">
+                    </div>
+
+                    <div class="latest__text">
+                        <strong>kin 2018</strong>
+                        <p>Action Movie</p>
+                    </div>
+                </div>
+            </li>
+            <li class="item-b">
+                <div class="latest__box">
+                    <div class="latest__img">
+                        <img src="assets/img/m-2.jpg" alt="">
+                    </div>
+
+                    <div class="latest__text">
+                        <strong>kin 2018</strong>
+                        <p>Action Movie</p>
+                    </div>
+                </div>
+            </li>
+            <li class="item-c">
+                <div class="latest__box">
+                    <div class="latest__img">
+                        <img src="assets/img/m-3.jpg" alt="">
+                    </div>
+
+                    <div class="latest__text">
+                        <strong>kin 2018</strong>
+                        <p>Action Movie</p>
+                    </div>
+                </div>
+            </li>
+            <li class="item-d">
+                <div class="latest__box">
+                    <div class="latest__img">
+                        <img src="assets/img/m-4.jpg" alt="">
+                    </div>
+
+                    <div class="latest__text">
+                        <strong>kin 2018</strong>
+                        <p>Action Movie</p>
+                    </div>
+                </div>
+            </li>
+            <li class="item-e">
+                <div class="latest__box">
+                    <div class="latest__img">
+                        <img src="assets/img/m-5.jpg" alt="">
+                    </div>
+
+                    <div class="latest__text">
+                        <strong>kin 2018</strong>
+                        <p>Action Movie</p>
+                    </div>
+                </div>
+            </li>
+            <li class="item-f">
+                <div class="latest__box">
+                    <div class="latest__img">
+                        <img src="assets/img/m-6.jpg" alt="">
+                    </div>
+
+                    <div class="latest__text">
+                        <strong>kin 2018</strong>
+                        <p>Action Movie</p>
+                    </div>
+                </div>
+            </li>
+            <li class="item-g">
+                <div class="latest__box">
+                    <div class="latest__img">
+                        <img src="assets/img/m-7.jpeg" alt="">
+                    </div>
+
+                    <div class="latest__text">
+                        <strong>kin 2018</strong>
+                        <p>Action Movie</p>
+                    </div>
+                </div>
+            </li>
+            <li class="item-h"></li>
+        </ul>
+    </section>
+
+    <!--== MOVIES ==-->
+    <div class="movies__heading">
+        <h2>Movies</h2>
+    </div>
+
+    <section id="movie__list">
+        <div class="movies__box">
+            <div class="movies__img">
+                <div class="quality">HDRip</div>
+                <img src="assets/img/l-1.jpg" alt="">
+            </div>
+
+            <a href="#" class="movies__text">
+                Tin (2018) Full Movie[In English] With English Subtitle | HDRip 1080 HD
+            </a>
+        </div>
+
+        <div class="movies__box">
+            <div class="movies__img">
+                <div class="quality">HDRip</div>
+                <img src="assets/img/l-2.jpg" alt="">
+            </div>
+
+            <a href="#" class="movies__text">
+                Tin (2018) Full Movie[In English] With English Subtitle | HDRip 1080 HD
+            </a>
+        </div>
+
+        <div class="movies__box">
+            <div class="movies__img">
+                <div class="quality">HDRip</div>
+                <img src="assets/img/l-3.jpg" alt="">
+            </div>
+
+            <a href="#" class="movies__text">
+                Tin (2018) Full Movie[In English] With English Subtitle | HDRip 1080 HD
+            </a>
+        </div>
+
+        <div class="movies__box">
+            <div class="movies__img">
+                <div class="quality">HDRip</div>
+                <img src="assets/img/l-4.jpg" alt="">
+            </div>
+
+            <a href="#" class="movies__text">
+                Tin (2018) Full Movie[In English] With English Subtitle | HDRip 1080 HD
+            </a>
+        </div>
+
+        <div class="movies__box">
+            <div class="movies__img">
+                <div class="quality">HDRip</div>
+                <img src="assets/img/l-5.jpg" alt="">
+            </div>
+
+            <a href="#" class="movies__text">
+                Tin (2018) Full Movie[In English] With English Subtitle | HDRip 1080 HD
+            </a>
+        </div>
+
+        <div class="movies__box">
+            <div class="movies__img">
+                <div class="quality">HDRip</div>
+                <img src="assets/img/l-6.jpg" alt="">
+            </div>
+
+            <a href="#" class="movies__text">
+                Tin (2018) Full Movie[In English] With English Subtitle | HDRip 1080 HD
+            </a>
+        </div>
+
+        <div class="movies__box">
+            <div class="movies__img">
+                <div class="quality">HDRip</div>
+                <img src="assets/img/l-7.jpg" alt="">
+            </div>
+
+            <a href="#" class="movies__text">
+                Tin (2018) Full Movie[In English] With English Subtitle | HDRip 1080 HD
+            </a>
+        </div>
+
+        <div class="movies__box">
+            <div class="movies__img">
+                <div class="quality">HDRip</div>
+                <img src="assets/img/l-8.jpg" alt="">
+            </div>
+
+            <a href="#" class="movies__text">
+                Tin (2018) Full Movie[In English] With English Subtitle | HDRip 1080 HD
+            </a>
+        </div>
+    </section>
+
+    <!--== BTNS ==-->
+    <div class="btns">
+        <a href="#">Previous</a>
+        <a href="#">Next</a>
+    </div>
+
+    <!---== FOOTER ==-->
+    <footer>
+        <p>Yousef Omar, Association With Disney Company</p>
+        <p>CopyRight 2020 &copy; Yousef O. All Rights Reserved</p>
+    </footer>
+
+    <!--== MAIN JS ==-->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
